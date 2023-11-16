@@ -5,14 +5,14 @@ function App(props) {
   return (
     <Div>
       <Header>
-        <HeadItem>HOME</HeadItem>
-        <HeadItem>ABOUT</HeadItem>
+        <HeadItem href="#home">HOME</HeadItem>
+        <HeadItem href="#about-us">ABOUT</HeadItem>
         <Logo loading="lazy" srcSet="./logo-min.png" width="367px" />
-        <HeadItem>PRODUCTS</HeadItem>
-        <HeadItem>CONTACT US</HeadItem>
+        <HeadItem href="#our-products">PRODUCTS</HeadItem>
+        <HeadItem href="#connect-with-us">CONTACT US</HeadItem>
       </Header>
       <Img loading="lazy" srcSet="./landing-image-min.png" />
-      <AboutUs>
+      <AboutUs id="about-us">
         <AboutUsContainer>
           <Column>
             <Div4>
@@ -57,9 +57,9 @@ function App(props) {
           </Column2>
         </AboutUsContainer>
       </AboutUs>
-      <Div8>
-        <Title>OUR PRODUCTS</Title>
-      </Div8>
+
+      <Title id="our-products">OUR PRODUCTS</Title>
+
       <OurProducts>
         <OurProductsContainer>
           <Product>
@@ -110,7 +110,7 @@ function App(props) {
           </Product>
         </OurProductsContainer>
       </OurProducts>
-      <Title>OUR CERTIFICATIONS</Title>
+      <Title id="our-certifications">OUR CERTIFICATIONS</Title>
       <Div21>
         <Img6
           loading="lazy"
@@ -134,7 +134,7 @@ function App(props) {
         />
       </Div21>
 
-      <Title>OUT OUTLETS</Title>
+      <Title id="our-outlets">OUT OUTLETS</Title>
       <OurOutlets>
         <OurOutletsContainer>
           <Outlet>
@@ -182,29 +182,32 @@ function App(props) {
           </Outlet>
         </OurOutletsContainer>
       </OurOutlets>
-      <Title>CONNECT WITH US</Title>
+      <Title id="connect-with-us">CONNECT WITH US</Title>
       <Footer>
-        <Div33>
-          <Column10>
-            <ContactContainer>
+        <FooterContainer>
+          <Contact>
+            <ContactContainer href="tel:+918279660266" __target="blank">
               <ContactIcon
                 loading="lazy"
                 srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/db3052eb-c0d9-42d2-9d8b-c3955e64480e?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/db3052eb-c0d9-42d2-9d8b-c3955e64480e?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/db3052eb-c0d9-42d2-9d8b-c3955e64480e?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/db3052eb-c0d9-42d2-9d8b-c3955e64480e?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/db3052eb-c0d9-42d2-9d8b-c3955e64480e?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/db3052eb-c0d9-42d2-9d8b-c3955e64480e?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/db3052eb-c0d9-42d2-9d8b-c3955e64480e?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/db3052eb-c0d9-42d2-9d8b-c3955e64480e?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&"
               />
               <ContactDetail>+91 8279660266</ContactDetail>
             </ContactContainer>
-          </Column10>
-          <Column11>
-            <ContactContainer>
+          </Contact>
+          <Contact>
+            <ContactContainer
+              href="https://www.instagram.com/foodbasket0"
+              __target="blank"
+            >
               <ContactIcon
                 loading="lazy"
                 srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/833a577c-961f-4b1e-9bfd-7e0c720ab454?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/833a577c-961f-4b1e-9bfd-7e0c720ab454?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/833a577c-961f-4b1e-9bfd-7e0c720ab454?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/833a577c-961f-4b1e-9bfd-7e0c720ab454?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/833a577c-961f-4b1e-9bfd-7e0c720ab454?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/833a577c-961f-4b1e-9bfd-7e0c720ab454?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/833a577c-961f-4b1e-9bfd-7e0c720ab454?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/833a577c-961f-4b1e-9bfd-7e0c720ab454?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&"
               />
               <ContactDetail>foodbasket0</ContactDetail>
             </ContactContainer>
-          </Column11>
-          <Column12>
-            <ContactContainer>
+          </Contact>
+          <Contact>
+            <ContactContainer href="https://www.google.com/maps/place/FOOD+BASKET/@29.9788734,77.5468931,15z/data=!4m14!1m7!3m6!1s0x390e95c6a0b74527:0xdde58a3dd34e9a6c!2sFOOD+BASKET!8m2!3d29.9788734!4d77.5468931!16s%2Fg%2F11kj7604ct!3m5!1s0x390e95c6a0b74527:0xdde58a3dd34e9a6c!8m2!3d29.9788734!4d77.5468931!16s%2Fg%2F11kj7604ct?entry=ttu">
               <ContactIcon
                 loading="lazy"
                 srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&"
@@ -213,8 +216,8 @@ function App(props) {
                 gF, Shop No. 1, Near Arbi Madarsa, Saharanpur
               </ContactDetail>
             </ContactContainer>
-          </Column12>
-        </Div33>
+          </Contact>
+        </FooterContainer>
       </Footer>
     </Div>
   );
@@ -252,7 +255,7 @@ const Header = styled.div`
   }
 `;
 
-const HeadItem = styled.div`
+const HeadItem = styled.a`
   font-size: 30px;
   color: #dbb861;
   font-weight: 400;
@@ -508,10 +511,11 @@ const Title = styled.div`
   text-transform: uppercase;
   align-self: center;
   max-width: 634px;
+  margin-top: 258px;
   font: 700 50px/61px Montserrat, sans-serif;
   @media (max-width: 991px) {
     max-width: 100%;
-    margin-top: 40px;
+    margin-top: 100px;
     font-size: 40px;
     line-height: 54px;
   }
@@ -659,7 +663,7 @@ const Footer = styled.div`
   }
 `;
 
-const Div33 = styled.div`
+const FooterContainer = styled.div`
   gap: 20px;
   display: flex;
   @media (max-width: 991px) {
@@ -667,7 +671,7 @@ const Div33 = styled.div`
   }
 `;
 
-const Column10 = styled.div`
+const Contact = styled.div`
   display: flex;
   flex-direction: column;
   line-height: normal;
@@ -678,11 +682,12 @@ const Column10 = styled.div`
   }
 `;
 
-const ContactContainer = styled.div`
+const ContactContainer = styled.a`
   display: flex;
   margin-top: 15px;
   flex-direction: column;
   align-items: center;
+  cursor: pointer;
   @media (max-width: 991px) {
     margin-top: 40px;
   }

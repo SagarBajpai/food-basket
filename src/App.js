@@ -358,18 +358,6 @@ const Div4 = styled.div`
   }
 `;
 
-const Div5 = styled.div`
-  color: #fffcfc;
-  text-transform: uppercase;
-  align-self: stretch;
-  margin-right: -20px;
-  font: 700 46px/56px Montserrat, sans-serif;
-  @media (max-width: 991px) {
-    max-width: 100%;
-    font-size: 40px;
-    line-height: 55px;
-  }
-`;
 
 const Div6 = styled.div`
   color: #fff;
@@ -420,21 +408,6 @@ const Img2 = styled.img`
   }
 `;
 
-const Div8 = styled.div`
-  color: #fffcfc;
-  text-align: center;
-  text-transform: uppercase;
-  align-self: center;
-  margin-top: 258px;
-  max-width: 634px;
-  font: 700 50px/61px Montserrat, sans-serif;
-  @media (max-width: 991px) {
-    max-width: 100%;
-    margin-top: 100px;
-    font-size: 40px;
-    line-height: 54px;
-  }
-`;
 
 const OurProducts = styled.div`
   align-self: center;
@@ -609,43 +582,6 @@ const OutletImage = styled.img`
     max-width: 100%;
   }
 `;
-
-const Column7 = styled.div`
-  display: flex;
-  flex-direction: column;
-  line-height: normal;
-  width: 50%;
-  margin-left: 20px;
-  @media (max-width: 991px) {
-    width: 100%;
-    margin-left: 0px;
-  }
-`;
-
-const Img12 = styled.img`
-  aspect-ratio: 1.05;
-  object-fit: contain;
-  object-position: center;
-  width: 100%;
-  overflow: hidden;
-  flex-grow: 1;
-  @media (max-width: 991px) {
-    max-width: 100%;
-    margin-top: 40px;
-  }
-`;
-
-const Div25 = styled.div`
-  align-self: center;
-  margin-top: 59px;
-  width: 804px;
-  max-width: 100%;
-  padding: 0 20px;
-  @media (max-width: 991px) {
-    margin-top: 40px;
-  }
-`;
-
 const Div27 = styled.div`
   color: #656561;
   text-align: center;
@@ -717,18 +653,6 @@ const ContactIcon = styled.img`
 `;
 
 
-const Column11 = styled.div`
-  display: flex;
-  flex-direction: column;
-  line-height: normal;
-  width: 28%;
-  margin-left: 20px;
-  @media (max-width: 991px) {
-    width: 100%;
-  }
-`;
-
-
 const ContactDetail = styled.div`
   color: #9f9c87;
   text-align: center;
@@ -743,17 +667,6 @@ const ContactDetail = styled.div`
   }
   @media (max-width: 400px) {
     font-size: 12px;
-  }
-`;
-
-const Column12 = styled.div`
-  display: flex;
-  flex-direction: column;
-  line-height: normal;
-  width: 39%;
-  margin-left: 20px;
-  @media (max-width: 991px) {
-    width: 100%;
   }
 `;
 

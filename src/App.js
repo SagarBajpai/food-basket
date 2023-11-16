@@ -273,16 +273,19 @@ const HeadItem = styled.a`
   margin: 0 5px;
   cursor: pointer;
   @media (max-width: 992px) {
-    font-size: 20px;
+    font-size: 16px;
   }
   @media (max-width: 768px) {
-    font-size: 18px;
-  }
-  @media (max-width: 576px) {
     font-size: 14px;
   }
-  @media (max-width: 400px) {
+  @media (max-width: 576px) {
     font-size: 12px;
+  }
+  @media (max-width: 410px) {
+    font-size: 10px;
+  }
+  @media (max-width: 360px) {
+    font-size: 8px;
   }
 `;
 
@@ -318,6 +321,7 @@ const AboutUs = styled.div`
   margin-top: 286px;
   width: 100%;
   max-width: 1033px;
+  margin-bottom: 150px;
   @media (max-width: 991px) {
     max-width: 100%;
     margin-top: 40px;
@@ -495,11 +499,9 @@ const Title = styled.div`
   text-transform: uppercase;
   align-self: center;
   max-width: 634px;
-  margin-top: 258px;
   font: 700 50px/61px Montserrat, sans-serif;
   @media (max-width: 991px) {
     max-width: 100%;
-    margin-top: 100px;
     font-size: 40px;
     line-height: 54px;
   }
@@ -546,7 +548,7 @@ const OurOutlets = styled.div`
   max-width: 100%;
   margin-bottom: 150px;
   @media (max-width: 991px) {
-    margin-bottom: 0px;
+    margin-bottom: 100px;
     margin-top: 10px;
   }
 `;

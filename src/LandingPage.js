@@ -39,7 +39,7 @@ function App(props) {
                 pride.
                 <br />
               </Div6>
-              <Div7>Read more</Div7>
+              <ReadMore href="/about-us">Read more</ReadMore>
             </Div4>
           </Column>
           <Column2>
@@ -286,7 +286,7 @@ const Div6 = styled.div`
   }
 `;
 
-const Div7 = styled.div`
+const ReadMore = styled.a`
   color: #fffcfc;
   border-radius: 52px;
   border: 3px solid #f8c443;

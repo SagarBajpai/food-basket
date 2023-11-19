@@ -65,6 +65,35 @@ const Index = () => {
           </Column>
         </AboutUsContainer>
       </AboutUs>
+      <Footer>
+        <FooterContainer>
+          <ContactContainer href="tel:+918279660266" __target="blank">
+            <ContactIcon
+              loading="lazy"
+              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/db3052eb-c0d9-42d2-9d8b-c3955e64480e?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/db3052eb-c0d9-42d2-9d8b-c3955e64480e?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/db3052eb-c0d9-42d2-9d8b-c3955e64480e?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/db3052eb-c0d9-42d2-9d8b-c3955e64480e?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/db3052eb-c0d9-42d2-9d8b-c3955e64480e?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/db3052eb-c0d9-42d2-9d8b-c3955e64480e?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/db3052eb-c0d9-42d2-9d8b-c3955e64480e?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/db3052eb-c0d9-42d2-9d8b-c3955e64480e?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&"
+            />
+          </ContactContainer>
+          <ContactContainer
+            href="https://www.instagram.com/foodbasket0"
+            __target="blank"
+          >
+            <ContactIcon
+              loading="lazy"
+              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/833a577c-961f-4b1e-9bfd-7e0c720ab454?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/833a577c-961f-4b1e-9bfd-7e0c720ab454?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/833a577c-961f-4b1e-9bfd-7e0c720ab454?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/833a577c-961f-4b1e-9bfd-7e0c720ab454?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/833a577c-961f-4b1e-9bfd-7e0c720ab454?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/833a577c-961f-4b1e-9bfd-7e0c720ab454?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/833a577c-961f-4b1e-9bfd-7e0c720ab454?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/833a577c-961f-4b1e-9bfd-7e0c720ab454?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&"
+            />
+          </ContactContainer>
+          <ContactContainer
+            __target="blank"
+            href="https://www.google.com/maps/place/FOOD+BASKET/@29.9788734,77.5468931,15z/data=!4m14!1m7!3m6!1s0x390e95c6a0b74527:0xdde58a3dd34e9a6c!2sFOOD+BASKET!8m2!3d29.9788734!4d77.5468931!16s%2Fg%2F11kj7604ct!3m5!1s0x390e95c6a0b74527:0xdde58a3dd34e9a6c!8m2!3d29.9788734!4d77.5468931!16s%2Fg%2F11kj7604ct?entry=ttu"
+            marginTop="-4px"
+          >
+            <ContactIcon
+              loading="lazy"
+              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&"
+            />
+          </ContactContainer>
+        </FooterContainer>
+      </Footer>
     </Div>
   );
 };
@@ -203,6 +232,49 @@ const Img2 = styled.img`
   overflow: hidden;
   @media (max-width: 991px) {
     margin-top: 40px;
+  }
+`;
+
+const Footer = styled.div`
+  width: 1280px;
+  max-width: 100%;
+  margin: 122px 0 100px;
+  display: flex;
+  justify-content: flex-end;
+  @media (max-width: 991px) {
+    margin: 0 0 50px;
+  }
+`;
+
+const FooterContainer = styled.div`
+  gap: 20px;
+  display: flex;
+  width: max-content;
+  @media (max-width: 991px) {
+    padding: 0 20px;
+  }
+`;
+
+const ContactContainer = styled.a`
+  display: flex;
+  margin-top: 15px;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  @media (max-width: 991px) {
+    margin-top: 40px;
+  }
+`;
+
+const ContactIcon = styled.img`
+  width: 35px;
+  overflow: hidden;
+  max-width: 100%;
+  @media (max-width: 768px) {
+    width: 30px;
+  }
+  @media (max-width: 400px) {
+    width: 20px;
   }
 `;
 

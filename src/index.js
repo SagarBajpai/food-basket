@@ -95,6 +95,9 @@ const HeadItem = styled.a`
   @media (max-width: 360px) {
     font-size: 8px;
   }
+  &:hover {
+    color: #fff;
+  }
 `;
 
 const Logo = styled.img`

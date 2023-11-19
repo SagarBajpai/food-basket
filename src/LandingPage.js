@@ -4,17 +4,6 @@ import styled from "styled-components";
 function App(props) {
   return (
     <Div>
-      <Header>
-        <HeaderContainer>
-          <HeadItem href="#home">&#8205; &#8205; &#8205; &#8205; HOME</HeadItem>
-          <HeadItem href="#about-us">
-            ABOUT &#8205; &#8205; &#8205; &#8205;
-          </HeadItem>
-          <Logo loading="lazy" srcSet="./logo-min.png" width="367px" />
-          <HeadItem href="#our-products">PRODUCTS</HeadItem>
-          <HeadItem href="#connect-with-us">CONTACT US</HeadItem>
-        </HeaderContainer>
-      </Header>
       <Img loading="lazy" srcSet="./landing-image-min.png" />
       <AboutUs id="about-us">
         <AboutUsContainer>
@@ -114,6 +103,7 @@ function App(props) {
           </Product>
         </OurProductsContainer>
       </OurProducts>
+
       <Title id="our-certifications">OUR CERTIFICATIONS</Title>
       <Div21>
         <Img6
@@ -230,91 +220,14 @@ function App(props) {
   );
 }
 
-
-export default App; 
-
-const Header = styled.div`
-  padding: 0 10px
-`
-
-const HeaderContainer = styled.div`
-  display: flex;
-  width: 80%;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-  margin-bottom: -74px;
-  padding-top: 30px;
-  @media (max-width: 1196px) {
-    width: 100%;
-  }
-
-  @media (max-width: 992px) {
-    font-size: 20px;
-  }
-  @media (max-width: 768px) {
-    font-size: 18px;
-    margin-bottom: -30px;
-  }
-  @media (max-width: 576px) {
-    font-size: 14px;
-    margin-bottom: -20px;
-  }
-  @media (max-width: 400px) {
-    font-size: 14px;
-    margin-bottom: -10px;
-  }
-`;
-
-const HeadItem = styled.a`
-  font-size: 30px;
-  color: #dbb861;
-  font-weight: 400;
-  margin: 0 5px;
-  cursor: pointer;
-  @media (max-width: 992px) {
-    font-size: 16px;
-  }
-  @media (max-width: 768px) {
-    font-size: 14px;
-  }
-  @media (max-width: 576px) {
-    font-size: 12px;
-  }
-  @media (max-width: 410px) {
-    font-size: 10px;
-  }
-  @media (max-width: 360px) {
-    font-size: 8px;
-  }
-`;
-
-const Logo = styled.img`
-  width: 367px;
-  height: 275px;
-  z-index: 1;
-  @media (max-width: 768px) {
-    width: 200px;
-    height: auto;
-  }
-  @media (max-width: 576px) {
-    width: 100px;
-  }
-  @media (max-width: 400px) {
-    width: 70px;
-  }
-`;
-
+export default App;
 
 const Div = styled.div`
-  background-color: #231f20;
   display: flex;
   flex-direction: column;
 `;
 
-const Img = styled.img`
-
-`;
+const Img = styled.img``;
 
 const AboutUs = styled.div`
   align-self: center;
@@ -362,7 +275,6 @@ const Div4 = styled.div`
   }
 `;
 
-
 const Div6 = styled.div`
   color: #fff;
   text-align: justify;
@@ -408,10 +320,8 @@ const Img2 = styled.img`
   overflow: hidden;
   @media (max-width: 991px) {
     margin-top: 40px;
-
   }
 `;
-
 
 const OurProducts = styled.div`
   align-self: center;
@@ -492,7 +402,6 @@ const Div13 = styled.div`
   font: 400 14px/21px Lato, sans-serif;
 `;
 
-
 const Title = styled.div`
   color: #fffcfc;
   text-align: center;
@@ -539,7 +448,6 @@ const Img6 = styled.img`
     width: 54px;
   }
 `;
-
 
 const OurOutlets = styled.div`
   align-self: center;
@@ -593,7 +501,6 @@ const Div27 = styled.div`
     margin-top: 40px;
   }
 `;
-
 
 const Div29 = styled.div`
   color: #656561;
@@ -654,7 +561,6 @@ const ContactIcon = styled.img`
   }
 `;
 
-
 const ContactDetail = styled.div`
   color: #9f9c87;
   text-align: center;
@@ -671,4 +577,3 @@ const ContactDetail = styled.div`
     font-size: 12px;
   }
 `;
-

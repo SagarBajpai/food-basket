@@ -17,7 +17,7 @@ const App = () => {
           <HeadItem onClick={() => handleClick("home")}>
             &#8205; &#8205; &#8205; &#8205; HOME
           </HeadItem>
-          <HeadItem onClick={() => handleClick("about-us")}>
+          <HeadItem href="/about-us">
             ABOUT &#8205; &#8205; &#8205; &#8205;
           </HeadItem>
           <Logo loading="lazy" srcSet="./logo-min.png" width="367px" />
@@ -70,7 +70,7 @@ const HeaderContainer = styled.div`
   }
   @media (max-width: 400px) {
     font-size: 14px;
-    margin-bottom: -10px;
+    margin-bottom: -20px;
   }
 `;
 
@@ -87,10 +87,10 @@ const HeadItem = styled.a`
     font-size: 14px;
   }
   @media (max-width: 576px) {
-    font-size: 12px;
+    font-size: 10px;
   }
   @media (max-width: 410px) {
-    font-size: 10px;
+    font-size: 8px;
   }
   @media (max-width: 360px) {
     font-size: 8px;
@@ -109,10 +109,7 @@ const Logo = styled.img`
     height: auto;
   }
   @media (max-width: 576px) {
-    width: 100px;
-  }
-  @media (max-width: 400px) {
-    width: 70px;
+    width: 120px;
   }
 `;
 

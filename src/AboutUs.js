@@ -85,9 +85,9 @@ const Index = () => {
           <ContactContainer
             __target="blank"
             href="https://www.google.com/maps/place/FOOD+BASKET/@29.9788734,77.5468931,15z/data=!4m14!1m7!3m6!1s0x390e95c6a0b74527:0xdde58a3dd34e9a6c!2sFOOD+BASKET!8m2!3d29.9788734!4d77.5468931!16s%2Fg%2F11kj7604ct!3m5!1s0x390e95c6a0b74527:0xdde58a3dd34e9a6c!8m2!3d29.9788734!4d77.5468931!16s%2Fg%2F11kj7604ct?entry=ttu"
-            marginTop="-4px"
           >
             <ContactIcon
+              marginTop="-4px"
               loading="lazy"
               srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/59a8d2b0-bc4d-4aaf-9caf-89bc2956a8c7?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&"
             />

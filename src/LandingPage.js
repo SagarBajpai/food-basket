@@ -43,10 +43,7 @@ function App(props) {
             </Div4>
           </Column>
           <Column2>
-            <Img2
-              loading="lazy"
-              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/cd6c794f-fa93-4360-8589-f19f7bbdae8b?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/cd6c794f-fa93-4360-8589-f19f7bbdae8b?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/cd6c794f-fa93-4360-8589-f19f7bbdae8b?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/cd6c794f-fa93-4360-8589-f19f7bbdae8b?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/cd6c794f-fa93-4360-8589-f19f7bbdae8b?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/cd6c794f-fa93-4360-8589-f19f7bbdae8b?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/cd6c794f-fa93-4360-8589-f19f7bbdae8b?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/cd6c794f-fa93-4360-8589-f19f7bbdae8b?apiKey=29505a2a782d4e1b9d3e02ed60e35fde&"
-            />
+            <Img2 loading="lazy" src="/video.mp4" controls={true} />
           </Column2>
         </AboutUsContainer>
       </AboutUs>
@@ -300,6 +297,11 @@ const ReadMore = styled.a`
   font: 700 19px/23px Lato, sans-serif;
   text-align: center;
   cursor: default;
+  @media (max-width: 768px) {
+    font: 700 12px/12px Lato, sans-serif;
+    padding: 15px 27px;
+    width: 65px;
+  }
 `;
 
 const Column2 = styled.div`
@@ -315,7 +317,7 @@ const Column2 = styled.div`
   }
 `;
 
-const Img2 = styled.img`
+const Img2 = styled.video`
   width: 100%;
   overflow: hidden;
   @media (max-width: 991px) {
